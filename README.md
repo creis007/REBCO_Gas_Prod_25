@@ -54,4 +54,4 @@ The raw data was treated in excel and plotted in MATLAB. The source/working fold
 
 Torsello, D., Gambino, D., Gozzelino, L., Trotta, A. and Laviano, F., 2022. Expected radiation environment and damage for YBCO tapes in compact fusion reactors. Superconductor Science and Technology, 36(1), p.014003.
 
-As per their Data Availability statement, this data was directly requested from them with all rights to © 2022 IOP Publishing Ltd. Permission to uploaded their data to this GitHub Repo for instructional purposes was explicitly granted by the corresponding author(s).
+As per their Data Availability statement, this data was directly requested from them with all rights to © 2022 IOP Publishing Ltd. Permission to upload their data to this GitHub Repo for instructional purposes was explicitly granted by the corresponding author(s).
