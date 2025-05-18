@@ -17,7 +17,7 @@ Note that this study was based on other studies which completed the computationa
 
 Computational Flow:
 
-Pre Steps: Use Monte Carlo neutron trasnport code to assess neutron spectrum impinging material of interest based on desired reactor/beam geometry. Next take raw spectrum and input into TALYS to estimate secondary ion spectra of interest. As mentioned before, in the case of this study we took the neutron spectrum simulated at the REBCO location in an ARC-like reactor and input into TALYS to get secondary ion spectra. An example of the Monte Carlo data file is uploaded "spectrum360_A_JENDL_PHITS". Other examples of raw spectral data are pasted directly onto the Excel sheet, as detailed below. 
+Pre Steps: Use Monte Carlo neutron trasnport code to assess neutron spectrum impinging material of interest based on desired reactor/beam geometry. Next take raw spectrum and input into TALYS to estimate secondary ion spectra of interest. As mentioned before, in the case of this study we took the neutron spectrum simulated at the REBCO location in an ARC-like reactor and input into TALYS to get secondary ion spectra. An example of the Monte Carlo data file is uploaded "spectrum360_A_JENDL_PHITS" [1]. Other examples of raw spectral data are pasted directly onto the Excel sheet, as detailed below. 
 
 The Excel Sheets.
 To preproduce our results, download the Excel sheet and follow the next steps. Be warned the sheet is not very pretty, lots of copied and pasted stuff all over but it has been cleaned up as best as possible and is adequate for attaining results upon closely following instructions. The Excel document is comprised of four sheets: sheet 1 "ARC_BR2_spectra_Lee", sheet 2 "elast stopping in Ni", sheet 3 "Alpha Spec", and sheet 4 "Proton Spec". 
@@ -50,4 +50,8 @@ With the time constraint of the resubmission were not able to apply the methodol
 Step eight: Plots
 The raw data was treated in excel and plotted in MATLAB. The source/working folder for all of our figures have been uploaded as well in a separate folder. 
 
+[1] Associated with the publication:
 
+Torsello, D., Gambino, D., Gozzelino, L., Trotta, A. and Laviano, F., 2022. Expected radiation environment and damage for YBCO tapes in compact fusion reactors. Superconductor Science and Technology, 36(1), p.014003.
+
+As per their Data Availability statement, this data was directly requested from them with all rights to © 2022 IOP Publishing Ltd. Permission to uploaded their data to this GitHub Repo for instructional purposes was explicitly granted by the corresponding author(s).
