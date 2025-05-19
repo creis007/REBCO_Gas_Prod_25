@@ -17,13 +17,13 @@ Note that this study was based on other studies which completed the computationa
 
 Computational Flow:
 
-Pre Steps: Use Monte Carlo neutron trasnport code to assess neutron spectrum impinging material of interest based on desired reactor/beam geometry. Next take raw spectrum and input into TALYS to estimate secondary ion spectra of interest. As mentioned before, in the case of this study we took the neutron spectrum simulated at the REBCO location in an ARC-like reactor and input into TALYS to get secondary ion spectra. An example of the Monte Carlo data file is uploaded "spectrum360_A_JENDL_PHITS" [1]. Other examples of raw spectral data are pasted directly onto the Excel sheet, as detailed below. 
+Pre Steps: Use Monte Carlo neutron trasnport code to assess neutron spectrum impinging material of interest based on desired reactor/beam geometry. Next take raw spectrum and input into TALYS to estimate secondary ion spectra of interest. As mentioned before, in the case of this study we took the neutron spectrum simulated at the REBCO location in an ARC-like reactor and input into TALYS to get secondary ion spectra.  
 
 The Excel Sheets.
 To preproduce our results, download the Excel sheet and follow the next steps. Be warned the sheet is not very pretty, lots of copied and pasted stuff all over but it has been cleaned up as best as possible and is adequate for attaining results upon closely following instructions. The Excel document is comprised of four sheets: sheet 1 "ARC_BR2_spectra_Lee", sheet 2 "elast stopping in Ni", sheet 3 "Alpha Spec", and sheet 4 "Proton Spec". 
 
 Step one: Raw Flux Input
-Sheet 1 contains some other spectral data but very importantly the raw flux at the neutron energy we wish to investigate in cell D16. This was pasted straight from the aforementioned raw Monte Carlo data file. The user may replace this with any flux they want, for our purposes we chose the worst-case unshielded flux. Note that the proper units are neutrons per square centimetre per second.
+Sheet 1 contains some other spectral data but very importantly the raw flux at the neutron energy we wish to investigate in cell D16. This can be pasted straight from the raw Monte Carlo data files or "data-grabbed" using software like WebPlotDigitizer. The user may replace this with any flux they want, for our purposes we chose the worst-case unshielded flux. Note that the proper units are neutrons per square centimetre per second.
 
 Step two: Ion Range Trends
 Sheet 2 is comprised of three main parts: the alpha stopping block on the left, the proton stopping block on the right and the plots beneath both blocks. Both blocks show the energies we used is inputs in columns A (0-20 MeV) and how through a series of simulations the iop stopping code, provide the range that these ions would have in that material, in column I. This was done to find the trend in ion range as a function of incoming energy, which is what is ploted beneath. A polynomial fit of these graphs provided an equation for the energy-range relation need for the next step.
@@ -49,9 +49,3 @@ With the time constraint of the resubmission were not able to apply the methodol
 
 Step eight: Plots
 The raw data was treated in excel and plotted in MATLAB. The source/working folder for all of our figures have been uploaded as well in a separate folder. 
-
-[1] Associated with the publication:
-
-Torsello, D., Gambino, D., Gozzelino, L., Trotta, A. and Laviano, F., 2022. Expected radiation environment and damage for YBCO tapes in compact fusion reactors. Superconductor Science and Technology, 36(1), p.014003.
-
-As per their Data Availability statement, this data was directly requested from them with all rights to © 2022 IOP Publishing Ltd. Permission to upload their data to this GitHub Repo for instructional purposes was explicitly granted by the corresponding author(s).
